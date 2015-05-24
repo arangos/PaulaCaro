@@ -26,7 +26,7 @@
 <!-- 	NUEVA BARRA PARA LOGO NOMBRE Y REDES SOCIALES -->
 	
 	<nav>
-	<div id="imagenes"  role="navigation" style="background-color: black; width: 100%;">
+	<div  id="imagenes"  role="navigation" style="background-color: black; width: 100%;">
 			
 			<div style="width: 50%; float:left;">
 					<img align="middle" src="http://localhost:8888/paulacaro.com/imagenes/IconoBlog.jpg" height="47px" width="47px">
