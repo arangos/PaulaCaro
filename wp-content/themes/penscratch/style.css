@@ -2102,3 +2102,11 @@ a, a:hover {
 	-webkit-transition: all ease 0.5s;
 	-o-transition: all ease 0.5s;
 }
+
+.PrimeraMitad {
+	width: 50%;
+}
+
+.SegundaMitad {
+	width: 50%;	
+}

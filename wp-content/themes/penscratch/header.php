@@ -17,7 +17,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="icon" href="http://localhost:8888/paulacaro.com/imagenes/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="http://localhost:8888/paulacaro.com/imagenes/favicon.ico" type="image/x-icon" />
-<link type="text/css" rel="stylesheet" href="path-to-fontawesome/font-awesome.css">
+<link type="text/css" rel="stylesheet" href="Css-Generales/font-awesome-4.3.0/css/font-awesome.css">
 <?php wp_head(); ?>
 </head>
 
@@ -26,30 +26,24 @@
 <!-- 	NUEVA BARRA PARA LOGO NOMBRE Y REDES SOCIALES -->
 	
 	<nav>
-	<div id="imagenes"  role="navigation" style="background-color: black;">
-				
-<!-- 			<a href="/" class="logo" >PaulaCaro</a> -->
-			<img align="middle" src="http://localhost:8888/paulacaro.com/imagenes/IconoBlog.jpg" height="30px" width="30px">
-			<img align="middle" src="http://localhost:8888/paulacaro.com/imagenes/BarraNombre.jpg" height="26px" width="100px">
+	<div id="imagenes"  role="navigation" style="background-color: black; width: 100%;">
 			
-		
-					
+			<div style="width: 50%; float:left;">
+					<img align="middle" src="http://localhost:8888/paulacaro.com/imagenes/IconoBlog.jpg" height="47px" width="47px">
+					&nbsp;
+					<img align="middle" src="http://localhost:8888/paulacaro.com/imagenes/BarraNombre.jpg" height="50px" width="120px">
+			</div>	
+	
+			<div class="socialbtns" style="width: 50%; float:left;" >
+						<li style="float:right">
+						<a  href="#" class="fa fa-lg fa-facebook"></a>
+						</li>
+						<li style="float:right"><a href="#" class="fa fa-lg fa-twitter"></a></li>
+			</div>
+<!-- 	Esto es para que se seten bien las divs -->
+		<br style="clear: left;" />			
 	</div>
 	</nav>
-	
-		<div align="left" class="socialbtns">
-				<ul>
-				<li><a href="#" class="fa fa-lg fa-facebook"></a></li>
-				<li><a href="#" class="fa fa-lg fa-twitter"></a></li>
-				<li><a href="#" class="fa fa-lg fa-google-plus"></a></li>
-				
-				<li><a href="#" class="fa fa-lg fa-pinterest"></a></li>
-				<li><a href="#" class="fa fa-lg fa-linkedin"></a></li>
-				<li><a href="#" class="fa fa-lg fa-instagram"></a></li>
-				<li><a href="#" class="fa fa-lg fa-youtube"></a></li>
-				</ul>
-			</div>
-	
 	
 <!-- 	NUEVA BARRA PARA LOGO NOMBRE Y REDES SOCIALES -->
 
